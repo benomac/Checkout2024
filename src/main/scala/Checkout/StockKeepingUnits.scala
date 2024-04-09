@@ -7,10 +7,7 @@ object StockKeepingUnits {
   case class Special(quantity: Int, SpecialPrice: Double)
 
   case class SKU(price: Double, special: Option[Special])
-
-  def main(args: Array[String]): Unit = {
-    println(getTotalPrice(basket))
-  }
+  
 
 }
 
